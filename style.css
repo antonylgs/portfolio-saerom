@@ -598,7 +598,7 @@ h1 {
 h3 {
   font-size: 36px;
   color: var(--accent-color);
-  /* opacity: 0.5; */
+  margin-bottom: 16px;
 }
 
 .skills-list {
@@ -606,7 +606,8 @@ h3 {
   flex-wrap: wrap;
   flex-direction: row;
   gap: 12px;
-  margin-bottom: 12px;
+  margin-bottom: 44px;
+  max-width: 450px;
 }
 
 .skills-list li {
