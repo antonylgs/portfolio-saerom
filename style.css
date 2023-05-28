@@ -229,6 +229,13 @@ nav ul li a {
   fill: var(--secondary-color);
 }
 
+.socials.mobile {
+  display: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
 .socials a::before,
 .education-name::before {
   transform: scaleX(0);
@@ -450,8 +457,16 @@ h1 {
   nav {
     display: none;
   }
+  .socials.mobile {
+    display: flex;
+  }
   main {
     flex: 1;
+  }
+}
+@media (max-width: 438px) {
+  h1 {
+    margin-bottom: 40px;
   }
 }
 
