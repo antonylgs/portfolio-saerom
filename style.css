@@ -231,7 +231,7 @@ nav ul li a {
 
 .socials.mobile {
   display: none;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   margin-bottom: 12px;
 }
@@ -578,6 +578,15 @@ h1 {
   width: 16px;
   position: relative;
   top: 1px;
+}
+
+.white {
+  fill: white;
+  margin-right: 4px;
+}
+
+.col {
+  flex-direction: column;
 }
 
 .education .star-icon,
